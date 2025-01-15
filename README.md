@@ -13,9 +13,11 @@ Before running the program, ensure you have the following installed:
 
 Python 3.6+: Download Python
 Required Libraries: Install the dependencies using pip:
+copy code
+```
 bash
-Copy code
 pip install requests beautifulsoup4 win10toast geocoder
+```
 
 ## Configuration
 OpenWeatherMap API Key:
@@ -25,9 +27,10 @@ Replace the placeholder "4fdc66bb5ae5f437640e9a50f68fbfa7" in the code with your
 ## How to Run
 Clone or download the repository to your local machine.
 Open a terminal in the project directory and execute the script:
+```
 bash
-Copy code
 python weather_display_app.py
+```
 The program will:
 
 Detect your current location.
@@ -35,17 +38,20 @@ Retrieve the weather details for your location.
 Display a desktop notification with the temperature and rain chances.
 
 ## Code Overview
+
 ### Libraries Used
 requests: For making HTTP requests to fetch weather data.
 BeautifulSoup: For parsing and scraping HTML content from Weather.com.
 win10toast: For displaying desktop notifications.
 geocoder: For determining the user's current location based on their IP address.
 logging: For logging errors and updates to a file (weather_app.log).
+
 ### Key Functions
 getdata(url): Fetches raw HTML data from the provided URL.
 get_location(): Retrieves the user's latitude and longitude using their IP address.
 open_weathermap(lat, long, api_key): Fetches weather data using OpenWeatherMap's API as a fallback.
 fetch_weather(): Retrieves weather details, handles errors, and displays notifications.
+
 ### Error Handling and Logging
 Errors encountered during data retrieval, parsing, or location detection are logged in weather_app.log.
 If Weather.com fails to provide data, the program automatically falls back to OpenWeatherMap for weather updates.
