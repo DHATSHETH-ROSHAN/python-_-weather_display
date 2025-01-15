@@ -52,7 +52,7 @@ If Weather.com fails to provide data, the program automatically falls back to Op
 
 ## Example Output
 A sample notification might look like this:
-referrence image = weather_app.img
+referrence image = weather app.png
 🌞 Weather in Your City
 Current temperature: 25°C
 Chances of rain: 10%
