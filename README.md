@@ -33,9 +33,15 @@ pip install requests beautifulsoup4 win10toast geocoder
 ```
 
 ## Configuration
-OpenWeatherMap API Key:
-Register for an API key at OpenWeatherMap.
+
+OpenWeatherMap API Key
+
+If you need to use the OpenWeatherMap fallback, replace the placeholder API key in the code with your own:
+
 Replace the placeholder "4fdc66bb5ae5f437640e9a50f68fbfa7" in the code with your actual API key.
+
+Get your API key from OpenWeatherMap.
+
 
 ## How to Run
 Clone or download the repository to your local machine.
