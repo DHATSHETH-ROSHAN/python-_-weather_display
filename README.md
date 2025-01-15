@@ -52,12 +52,12 @@ If Weather.com fails to provide data, the program automatically falls back to Op
 
 ## Example Output
 A sample notification might look like this:
-
-Copy code
+referrence image = weather_app.img
 🌞 Weather in Your City
 Current temperature: 25°C
 Chances of rain: 10%
-License
+
+## License
 This project is open-source and available under the MIT License.
 
 ## Future Improvements
