@@ -5,8 +5,8 @@ This Python program provides live weather updates using data scraped from Weathe
   Real-Time Weather Updates: Get live updates on the current temperature and chances of rain.
   Automatic Location Detection: Uses your IP address to determine your current location (latitude and longitude).
   Desktop Notifications: Displays weather updates as desktop toast notifications.
-  Fallback API: If Weather.com data is inaccessible, it uses OpenWeatherMap as a backup.
-  Error Handling: Logs errors and warnings to a file for debugging.
+    Fallback API: If Weather.com data is inaccessible, it uses OpenWeatherMap as a backup.
+    Error Handling: Logs errors and warnings to a file for debugging.
 
 ## Prerequisites
 Before running the program, ensure you have the following installed:
