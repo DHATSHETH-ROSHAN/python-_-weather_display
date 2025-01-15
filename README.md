@@ -27,7 +27,7 @@ Clone or download the repository to your local machine.
 Open a terminal in the project directory and execute the script:
 bash
 Copy code
-python weather_display.py
+python weather_display_app.py
 The program will:
 
 Detect your current location.
