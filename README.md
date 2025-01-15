@@ -15,7 +15,6 @@ Python 3.6+: Download Python
 Required Libraries: Install the dependencies using pip:
 copy code
 ```
-bash
 pip install requests beautifulsoup4 win10toast geocoder
 ```
 
@@ -28,7 +27,6 @@ Replace the placeholder "4fdc66bb5ae5f437640e9a50f68fbfa7" in the code with your
 Clone or download the repository to your local machine.
 Open a terminal in the project directory and execute the script:
 ```
-bash
 python weather_display_app.py
 ```
 The program will:
