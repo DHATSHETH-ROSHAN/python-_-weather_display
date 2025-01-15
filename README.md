@@ -2,18 +2,32 @@
 This Python program provides live weather updates using data scraped from Weather.com and falls back to the OpenWeatherMap API in case of any issues. The program also fetches the user's current location automatically using the geocoder library and displays weather notifications on the desktop using win10toast.
 
 ## Features
-  Real-Time Weather Updates: Get live updates on the current temperature and chances of rain.
-  Automatic Location Detection: Uses your IP address to determine your current location (latitude and longitude).
-  Desktop Notifications: Displays weather updates as desktop toast notifications.
-    Fallback API: If Weather.com data is inaccessible, it uses OpenWeatherMap as a backup.
-    Error Handling: Logs errors and warnings to a file for debugging.
 
-## Prerequisites
-Before running the program, ensure you have the following installed:
+Real-Time Location Detection: Automatically detects the user's current location using the geocoder library.
 
-Python 3.6+: Download Python
-Required Libraries: Install the dependencies using pip:
-copy code
+Weather Data Scraping: Retrieves temperature and precipitation details from Weather.com.
+
+Fallback API Support: If Weather.com fails, the program fetches weather data from OpenWeatherMap.
+
+Desktop Notifications: Displays weather updates as desktop notifications using win10toast.
+
+Error Logging: Logs errors and issues to a file for debugging.
+
+Custom Icons: Adds weather-specific icons like 🌞 or ☁️ in notifications.
+
+## Requirements
+
+Ensure the following Python libraries are installed:
+
+requests (for making HTTP requests)
+
+bs4 (for parsing HTML via BeautifulSoup)
+
+win10toast (for desktop notifications)
+
+geocoder (for detecting the user's current location)
+
+To install all dependencies, run:
 ```
 pip install requests beautifulsoup4 win10toast geocoder
 ```
